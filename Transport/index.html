@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistic Website</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">TRANSPORT</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">TRANSPORT</a>
+
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Ana Səhifə</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>Haqqımızda</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Xidmətlərimiz</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>
+              <span>Blog Səhifəsi</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Əlaqə</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+
+        <div>
+          <p class="contact-label">Bizimlə əlaqə</p>
+
+          <a href="tel:+9940505466754" class="contact-number">+994 050 546 67 54</a>
+        </div>
+
+        <div class="contact-icon">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="home" id="home"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">
+              <span class="span">BİZLƏ YENİ ZİRVƏLƏRƏ</span> ÇATIN
+            </h2>
+
+            <p class="hero-text">
+              TRANSPORT, 30 ilə yaxın təcrübəsi və gənc donanması ilə qismən və tam avtomobil daşıma xidmətləri
+              təklif edir. Geniş xidmət şəbəkəsi və qabaqcıl əməliyyat təcrübəsi ilə müştərilərinə sürətli,
+              yüksək keyfiyyətli və etibarlı nəqliyyat həlləri təklif edir.
+            </p>
+
+            <a href="#" class="btn-outline">Xidmətlərə Baxın</a>
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-1">
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-2">
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner img-holder" style="--width: 400; --height: 720;">
+            <img src="./assets/images/about-banner.jpg" width="400" height="720" loading="lazy" alt=""
+              class="img-cover">
+
+            <img src="./assets/images/about-shape-1.png" width="260" height="170" loading="lazy" alt=""
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/about-shape-2.png" width="500" height="500" loading="lazy" alt=""
+              class="abs-img abs-img-2">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Niyə Bizi Seçməlisiz?</p>
+
+            <h2 class="h2 section-title">Biz Peşəkar Logistika və Karqo Şirkətiyik</h2>
+
+            <p class="section-text">
+              Nəqliyyat vasitələrimizdə təhlükəli yüklərin daşınması üçün uyğun olan (ADR) avadanlıq sayəsində bir çox logistika
+              şirkətlərinin qaçındığı təhlükəli yüklərin daşınmasında təhlükəsiz daşıma təklif edirik.
+
+              Eyni zamanda, avtomobil daşımalarında müştərilərimizin daxili və beynəlxalq saxlama və gömrük
+              rəsmiləşdirilməsi prosedurlarını asan şəkildə həll edə bilərik.
+
+              Avropalı müştərilərinizin keyfiyyət dəyərlərinə mütənasib olaraq tekstil məhsullarının çeşidlənməsi,
+              paletləşdirilməsi, qablaşdırılması və Keyfiyyətə Nəzarət kimi xidmətləri təklif edirik.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Dünya üzrə yük daşımaları
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Xüsusilə Rusiya, Polşa və MDB ölkələrinə həftəlik qismən və tam daşıma xidmətləri.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Rusiya, Qazaxıstan və Ukraynada gömrük rəsmiləşdirilməsi prosedurları
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Bütün Avropadan Rusiya və MDB ölkələrinə 3-cü ölkə nəqliyyat modelləri
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Rusiya və Qazaxıstanda daxili nəqliyyat xidmətləri
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Fəaliyyət göstərdiyi xətlərdə oversize və layihəli daşıma xidmətləri.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Gündəlik yükdaşıma hesabatları ilə müştərilərimizin avtomobillərinin yaxından izlənilməsinin təmin edilməsi
+                </p>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn">Daha Çox</a>
+
+          </div>
+
+        </div>
+      </section>
+
+<!-- servis -->
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle">Bütün Xidmətlərimiz</p>
+
+          <h2 class="h2 section-title">Xidmətlərimiz Dəyərlərimiz qədər Əhəmiyyətlidir </h2>
+
+          <p class="section-text">
+            TRANSPORT olaraq müştəri məmnuniyyətini ön planda tutaraq öz avtomobillərimiz və avadanlıqlarımız, səlahiyyətli inzibati heyətimiz,
+            mütəxəssis sürücü heyətimiz, güclü və texnoloji infrastrukturumuz, unikal həllərimizlə hər növ məhsul daşımalarında etibarlı,
+            sürətli və sərfəli xidmət təqdim edirik.
+          </p>
+
+          <ul class="service-list grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="80" height="60" loading="lazy" alt="Truck">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">01</span> Magistral Nəqliyyat
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz,
+                  güclü avtomobil parkımız və təcrübəli müştəri xidməti bölməmizlə Avtomobil Nəqliyyatında
+                  qapıdan qapıya xidmət göstərərkən şüarımız təhlükəsiz çatdırılmadır ..
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="74" height="60" loading="lazy" alt="Ship">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">02</span> Dəniz Nəqliyyatı
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz
+                  və təcrübəli müştəri xidməti bölməmizlə Dəniz Nəqliyyatında hərtərəfli xidmət göstərdiyimiz halda, 
+                  şüarımız təhlükəsiz, vaxtında və qənaətcil çatdırılmadır.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="60" height="60" loading="lazy" alt="Airplane">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">03</span>Havayolu Nəqliyyatı
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz
+                  və təcrübəli müştəri xidməti bölməmizlə Havayolu Nəqliyyatında hərtərəfli xidmət göstərdiyimiz halda, 
+                  şüarımız təhlükəsiz, vaxtında və qənaətcil çatdırılmadır.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="50" height="60" loading="lazy" alt="Train">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">04</span> Intermodal Nəqliyyat
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz
+                  və təcrübəli müştəri xidməti bölməmizlə Intermodal Nəqliyyatda hərtərəfli xidmət göstərdiyimiz halda, 
+                  şüarımız təhlükəsiz, vaxtında və qənaətcil çatdırılmadır.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="63" height="60" loading="lazy" alt="Trolley">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">05</span> Saxlama və Paylama
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz
+                  və təcrübəli müştəri xidməti bölməmizlə Saxlama və Paylama sahəsində hərtərəfli xidmət göstərdiyimiz halda, 
+                  şüarımız təhlükəsiz, vaxtında və qənaətcil çatdırılmadır.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="46" height="60" loading="lazy" alt="Paper">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">06</span> Müqavilə daşımaları
+                </h3>
+
+                <p class="card-text">
+                  Mütəxəssis heyətimiz, geniş agentlik şəbəkəmiz, qabaqcıl texnoloji infrastrukturumuz
+                  və təcrübəli müştəri xidməti bölməmizlə Müqavilə daşımalarıda hərtərəfli xidmət göstərdiyimiz halda, 
+                  şüarımız təhlükəsiz, vaxtında və qənaətcil çatdırılmadır.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Ətraflı</span>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">Keyfiyyət siyasəti</p>
+
+              <h2 class="h2 section-title">İnformasiya Təhlükəsizliyi, Ətraf Mühit, Keyfiyyət, Alkoqol və Narkotik Siyasətləri</h2>
+
+              <p class="section-text">
+                Heç vaxt güzəştə getmədiyimiz keyfiyyət siyasətimiz sənayedə yüksək uğurlu performans göstərməyimizin əsas səbəbidir. Təqdim etdiyimiz təşkilat və xidmətlərdə müştəri məmnuniyyətinə üstünlük veririk və məmnuniyyəti ən yüksək səviyyədə saxlamağa çalışırıq. 
+                Biz müştərilərin məmnuniyyəti ilə bağlı rəylərini effektiv şəkildə idarə edir, mümkün problemləri aradan qaldırır, mövcud resurslardan düzgün istifadə edir, yüklərin böyük ehtiyatla daşınmasını və son dərəcə sağlam əməliyyatlarla vaxtında çatdırılmasını təmin edirik. 
+                Şirkət daxilində çalışan işçilərin ahəngdar işləməsini təmin edən, motivasiya artırıcı tədbirlər təşkil edən, komanda ruhu ilə hərəkət etmə şüurunu yaradan elementləri daim izləyirik və bununla da son dərəcə səmərəli və sağlam nəticələr əldə edə bilərik. 
+                Üzərimizə götürdüyümüz bütün layihələrdə müştəri tələblərinin olması lazım olduğu kimi qəbul etmək, istəkləri düzgün oxuyub qiymətləndirmək, müştəriləri düzgün istiqamətləndirmək, tələb və təlabatlara maksimum səviyyədə əməl etmək şirkət prinsiplərimizin əvəzsiz əsas elementləridir.
+              </p>
+            </div>
+
+            <a href="#" class="btn">Ətraflı</a>
+
+          </div>
+
+          <ul class="feature-list grid-list">
+
+            <li>
+              <div class="feature-card" style="--card-number: '1'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-1.png" width="72" height="91" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Şərtsiz Müştəri Məmnuniyyəti Anlayışımız:</h3>
+
+                <p class="card-text">
+                  Şərtsiz Müştəri Məmnuniyyəti Anlayışımız:
+                  Bizi sənayemizdə güclü edən cəhətlərdən biri də “Qeyri-şərtsiz Müştəri Məmnuniyyəti”nə verdiyimiz önəmdir.
+                  Müştərilərimizin gözləntilərini bilmək və bu gözləntilərə uyğun xidmətlərimizi təqdim etmək. 
+                  Müştərilərimizin təchizatçılarından başlayaraq onların çatmaq istədikləri nöqtəyə qədər prosesi tək mənbədən idarə edirik.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '2'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-2.png" width="94" height="94" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Bu günün və gələcəyin ehtiyacları ilə texnologiyaya verdiyimiz önəm</h3>
+
+                <p class="card-text">
+                  NƏQLİYYAT olaraq xidmət nöqtələrimizi və xidmətlərimizi hər gün genişləndirir, 
+                  bu günün və gələcəyin ehtiyaclarını gözləyərək ən müasir texnologiya və rəqəmsal sistemlərlə təchiz olunmuş effektiv logistika xidməti təqdim edirik. 
+                  İstifadə etdiyimiz rəqəmsal sistemlər sayəsində müştərilərimizlə qarşılıqlı əlaqə qurur və prosesi eyni səmərəli və ekoloji cəhətdən təmiz şəkildə idarə edirik.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '3'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-3.png" width="93" height="93" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Fərdi xidmət yanaşmamız</h3>
+
+                <p class="card-text">
+                  Bizim xidmət yanaşmamız bütün təchizat zənciriniz üçün fərdiləşdirilmiş həllər istehsal etməkdir. 
+                  Beynəlxalq Nəqliyyat və Logistika olaraq prosesləri bir dam altında idarə etmək üçün sizə lazım olan  
+                  təcrübə və alətlərə sahibik.Ehtiyaclarınızın kiçik və ya böyük olmasından asılı olmayaraq, biz fərdiləşdirilmiş xidmət yanaşmamızla sizinlə iş ortağıyıq.
+                  NƏQLİYYAT olaraq xidmət nöqtələrimizi və xidmətlərimizi hər gün genişləndiririk 
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle">Biz nə edirik?</p>
+
+          <h2 class="h2 section-title">Ən Son İşlərimiz</h2>
+
+          <p class="section-text">
+            NƏQLİYYAT olaraq biz müştərilərin ölkədaxili daşıma ehtiyaclarına da cavab veririk. 
+            Mütəxəssis komandamızla ölkədaxili daşıma işləri həyata keçiririk. 
+            Biz bütün daxili logistika fəaliyyətini avtomobil, dəniz, dəmir yolu və ya hava yolu ilə həyata keçiririk. 
+            Ölkə daxilində bir şəhərdən digərinə daşınacaq yüklər təhlükəsiz şəkildə alıcılarına çatdırılır.
+          </p>
+
+          <ul class="project-list">
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-1.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Saxlama və Paylama</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Anbar</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-2.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Logistika/Analitika</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Xərcləri minimuma endirin</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-3.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Prosesi redaktə etmək</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Çarpaz yerləşdirmə və doldurma</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-4.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Prosesin təhlili</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Prosesin qurulmasının təhlili</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-5.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Xidmət birləşmələri</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Qablaşdırma Yöntəmi</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/project-6.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Stok izləmə</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Son istifadə tarixlərini və partiya nömrələrini izləmək</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Ətraflı</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section blog" aria-label="blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Bloglar</p>
+
+          <h2 class="h2 section-title">Ən Son Xəbərlər və Yeniliklər</h2>
+
+          <p class="section-text">
+            Azərbaycanın ən mühüm ticarət tərəfdaşlarından biri olan İtaliyaya ixrac artmaqdadır. 
+            2015-ci ildə 6,9 milyard dollar olan ixrac 2021-ci ildə 10 milyard dolları keçib. Bu artım tendensiyası 2024-cü ildə də davam edir. 
+            İtaliyaya ixracatın yüzdə 42-si, təxminən 4 milyard dolları karayolu ilə həyata keçirilir. 
+            Lakin 2015-ci ildə keçirilmiş görüşə əsasən, İtaliya Azərbaycan daşıyıcılarına hər il cəmi 35 min ikitərəfli tranzit sənədi verir. 
+          </p>
+
+          <ul class="blog-list grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 500;">
+                  <img src="./assets/images/blog-1.jpg" width="770" height="500" loading="lazy"
+                    alt="At the end of the day, going forward, a new normal that has evolved from. your only logistic partner."
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="card-meta" datetime="2022-08-02">
+                    <span class="span">02</span> Aug
+                  </time>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      Cümə axşamı, 7 aprel 2022-ci il, Nəqliyyat və İnfrastruktur Nazirliyinin Nəqliyyat Xidmətlərinin Tənzimlənməsi Baş İdarəsi 
+                      İtaliya ilə 5 min əlavə tranzit sənədi ilə bağlı razılığın əldə edildiyini açıqladı.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Bu sənədlər dövri olaraq 3 hissədə verilir. DÜNYA-ya danışan Beynəlxalq Nəqliyyatçılar Assosiasiyasının (UND) Baş İcraçı Direktoru bildirib ki, 
+                    Azərbaycandan İtaliyaya artan ixracatla paralel olaraq keçən il gündə təxminən 110 olan keçid tələbi bu il 40 faiz artıb. 160-dan yuxarı. 
+                    Bu səbəbdən daxil olan sənədlər qısa müddətdə tükənir. Birinci rüb üçün verilən 11 min 666 sənəd də tez sona çatdı. 
+                    Mövzu ilə bağlı Baş İdarənin Twitter hesabında edilən paylaşımda aşağıdakılar qeyd olunub:
+
+                    “İtaliya tərəfi ilə aparılan danışıqlar nəticəsində 5 min əlavə tranzit sənədi üzrə razılıq əldə olunub. 
+                     Daşımaların və ticarətin fasiləsiz həyata keçirilməsi üçün mayın 1-də açılmalı olan sənədlər artıq ümumi istifadəyə verilib”.
+
+                    Baş verənləri xəbər verməyə davam edəcəyik.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Ətraflı</span>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 500;">
+                  <img src="./assets/images/blog-2.jpg" width="770" height="500" loading="lazy"
+                    alt="Going forward, a new normal that has evolved from generation. moving your products across all borders."
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="card-meta" datetime="2022-08-21">
+                    <span class="span">21</span> Aug
+                  </time>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      Logistika nədir 2024
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Logistika nədir? Sualın cavabını almaq üçün səhifənin qalan hissəsini oxuyaraq məlumat əldə edə bilərsiniz və ya e-poçt vasitəsilə bizimlə əlaqə saxlaya bilərsiniz.
+                    İstehsal nöqtəsinin istehlakçıya və ya istifadəçiyə çatdırılması anına qədər ümumiyyətlə "logistika" adlanır. 
+                    Məhsul istehsal edildiyi andan daşınma üçün göndərilməli olduğu yerə daşınmaq üçün nəqliyyat vasitələrinə yüklənir, 
+                    qablaşdırma, altlıqlar və qutular kimi proseslərdən sonra gömrük prosedurları həyata keçirilir və nəqliyyat vasitələri ilə göndərilir. təyinat yerinə çatdırılır, 
+                    boşaltma prosesi başlayır və nəticədə istehlakçıya və ya istifadəçiyə çatdırılır evakuasiya ilə tamamlanan bütün proseslər və əməliyyatlar logistika sözü çərçivəsində inkişaf edən fellərdir.
+                    İstehsalçı şirkətlər, xarici ticarət təşkilatları, ixracatçı və idxalçı şirkətlər və nəqliyyat daşıma şirkətləri arasında baş verən əməliyyat və hərəkətlərin tam adı olaraq istifadə edilən logistika sözü ingilis dilindən dilimizə tərcümə edilmiş və mənşəyi Fransadan götürülmüşdür. və orijinal adı ilə "logistika" kimi tanınır.
+                   
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Ətraflı"</span>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <figure class="newsletter-banner img-holder">
+            <img src="./assets/images/newsletter-banner.png" width="303" height="381" alt="newsletter banner"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <h2 class="h2 section-title">Təkliflərimiz və Yeniliklərimizdən İlk Siz Xəbərdar Olun </h2>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="E-mail ünvanınızı yazın.." aria-label="email"
+                class="email-field">
+
+              <button type="submit" class="newsletter-btn">Takib Edin</button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">TRANSPORT</a>
+
+          <p class="footer-text">
+            Azərbaycanın ixrac və idxal etdiyi demək olar ki, bütün ölkələrdə logistik fəaliyyət göstərən şirkətimiz geniş təchizat zənciri sayəsində hər növ ixrac və idxal yük daşımalarında yerli və xarici nömrəli nəqliyyat vasitələri ilə bütün tələbləri qarşılamaq üçün daşıma təşkilatları həyata keçirir. Avtoparkında özünə məxsus və icarəyə götürülmüş avtomobillərlə əməkdaşlıq edir.          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://github.com/d3yrey" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/nihad-%C9%99zizli-b944b2271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/nhd_ezzli/" class="social-link" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/" class="social-link" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Qısayollar</p>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Haqqımızda</a>
+          </li>
+
+          <li>
+            <a href="#service" class="footer-link">Xidmətlərimiz</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Əlaqə</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Xidmətlərimiz</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Saxlama və Paylama</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Havayolu Nəqliyyatı</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Denizyolu Nəqliyyatı</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Magistral nəqliyyat</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Qablaşdırma və paylama</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Toplum</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Biznes konsaltinq</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Müştərilərimiz</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Yük İzləmə Sistemi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Məxfilik Siyasətləri</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Şərtlər və Qaydalar</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
